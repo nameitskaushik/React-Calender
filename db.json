@@ -1,0 +1,173 @@
+{
+  "user": [
+    {
+      "uniqueId": "id3cf8e8213cbe6",
+      "id": "abc",
+      "name": "abc",
+      "password": "abc",
+      "email": "abc@abc.com",
+      "phone": "123456789",
+      "country": "india",
+      "address": "",
+      "role": "developer"
+    },
+    {
+      "uniqueId": "id882617acbe683",
+      "id": "abcd",
+      "name": "abcd",
+      "password": "abcd",
+      "email": "abcd@abcd.com",
+      "phone": "123456789",
+      "country": "india",
+      "address": "",
+      "role": "Manager"
+    },
+    {
+      "uniqueId": "ide4a2acd00f74d",
+      "id": "abcde",
+      "name": "abcde",
+      "password": "abcde",
+      "email": "abcde@abcde.com",
+      "phone": "abcde",
+      "country": "india",
+      "address": "",
+      "role": "developer"
+    },
+    {
+      "uniqueId": "idaa6ce4cdb2b49",
+      "id": "dev_1",
+      "name": "Developer 1",
+      "password": "dev",
+      "email": "dev1@dev.com",
+      "phone": "1234567890",
+      "country": "india",
+      "address": "",
+      "role": "developer"
+    },
+    {
+      "uniqueId": "id227641c31a80c",
+      "id": "dev_2",
+      "name": "Developer 2",
+      "password": "dev",
+      "email": "dev2@dev.com",
+      "phone": "123467890",
+      "country": "india",
+      "address": "",
+      "role": "developer"
+    },
+    {
+      "uniqueId": "iddfc10f610aa57",
+      "id": "manager_1",
+      "name": "Manager 1",
+      "password": "manager",
+      "email": "manager1@manager.com",
+      "phone": "1234567890",
+      "country": "india",
+      "address": "",
+      "role": "Manager"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ],
+  "customer": [
+    {
+      "code": 1,
+      "name": "kaushik",
+      "email": "nameitskaushik@gmail.com"
+    },
+    {
+      "code": 2,
+      "name": "kaush",
+      "email": "nameitskaushik@gmail.com"
+    },
+    {
+      "code": 3,
+      "name": "abc",
+      "email": "abc@in.com"
+    },
+    {
+      "code": 4,
+      "name": "ram",
+      "email": "ram@in.com"
+    },
+    {
+      "code": 5,
+      "name": "shayam",
+      "email": "shyam@in.com"
+    }
+  ],
+  "events": [
+    {
+      "start": "2023-06-07T18:30:00.000Z",
+      "end": "2023-06-08T18:30:00.000Z",
+      "title": "abcde",
+      "uniqueId": "ide4a2acd00f74d",
+      "id": 2
+    },
+    {
+      "start": "2023-06-08T18:30:00.000Z",
+      "end": "2023-06-09T18:30:00.000Z",
+      "title": "dev1",
+      "uniqueId": "idaa6ce4cdb2b49",
+      "id": 3
+    },
+    {
+      "start": "2023-06-09T18:30:00.000Z",
+      "end": "2023-06-10T18:30:00.000Z",
+      "title": "dev2",
+      "uniqueId": "id227641c31a80c",
+      "id": 4
+    },
+    {
+      "start": "2023-06-06T18:30:00.000Z",
+      "end": "2023-06-07T18:30:00.000Z",
+      "title": "abc",
+      "uniqueId": "id3cf8e8213cbe6",
+      "id": 5
+    },
+    {
+      "start": "2023-07-05T18:30:00.000Z",
+      "end": "2023-07-06T18:30:00.000Z",
+      "title": "Task abcde",
+      "discription": "",
+      "uniqueId": "ide4a2acd00f74d",
+      "id": 7
+    },
+    {
+      "start": "2023-07-11T18:30:00.000Z",
+      "end": "2023-07-12T18:30:00.000Z",
+      "title": "Task Dev1",
+      "discription": "",
+      "uniqueId": "idaa6ce4cdb2b49",
+      "id": 8
+    }
+  ]
+}
